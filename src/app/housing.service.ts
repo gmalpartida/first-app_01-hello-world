@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HousingLocation } from './housinglocation';
+import { CommonModule } from '@angular/common';
+import { HomeComponent } from './home/home.component';
 
 
 @Injectable({

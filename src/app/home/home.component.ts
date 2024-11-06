@@ -26,6 +26,7 @@ import { HousingService } from '../housing.service';
 })
 export class HomeComponent {
   readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
+
   housingService: HousingService=inject(HousingService);
   housingLocationList: HousingLocation[];
   constructor() {
